@@ -1,8 +1,8 @@
-from agent_day05.agent import StockAgent
-
+from agent_day05.agent_old import StockAgentOld
 
 def main():
-    agent = StockAgent()
+
+    agent = StockAgentOld()
     while True:
         question = input("\n请输入问题 (exit推出)")
 
